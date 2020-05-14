@@ -24,11 +24,6 @@ export default function MobileHeader(props) {
         />
       )}
       <style jsx>{`
-        .testing {
-          opacity: 1;
-          transform: translateX(0);
-          transition: opacity 300ms, transform 300ms;
-        }
         .mobile-menu-container {
           padding: 1em;
         }

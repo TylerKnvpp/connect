@@ -38,7 +38,7 @@ const Hero = (props) => {
         </Link>
       </div>
       <iframe
-        src="https://player.vimeo.com/video/418591011?embedparameter=value;title=0;sidedock=0;controls=0;autoplay=1;"
+        src="https://player.vimeo.com/video/418591011?embedparameter=value;title=0;sidedock=0;controls=0;autoplay=1;loop=5;"
         width={dimensions.width * 0.8}
         height={dimensions.width * 0.6}
         frameborder="0"
