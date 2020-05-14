@@ -42,8 +42,6 @@ const Hero = (props) => {
         width={dimensions.width * 0.8}
         height={dimensions.width * 0.6}
         frameborder="0"
-        allowfullscreen
-        controls="false"
       ></iframe>
 
       <style jsx>{`
@@ -75,12 +73,9 @@ const Hero = (props) => {
           line-height: 1.7;
         }
 
-        .plyr__video-embed {
-          height: 40%;
-          width: 70%;
-        }
-
         .hero-container {
+          display: flex;
+          flex-direction: column;
           margin-top: 7em;
           padding-left: 10%;
           padding-right: 10%;
@@ -104,6 +99,24 @@ const Hero = (props) => {
           margin-left: auto;
           margin-right: auto;
           width: 100%;
+        }
+
+        @media only screen and (max-width: 600px) {
+          .hero-container {
+            flex-direction: column-reverse;
+          }
+
+          .title {
+            font-size: 48px;
+          }
+
+          .link {
+            font-size: 18px;
+          }
+
+          .text-container-copy {
+            font-size: 18px;
+          }
         }
       `}</style>
     </div>
