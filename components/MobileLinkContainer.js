@@ -32,7 +32,7 @@ export default function MobileLinkContainer(props) {
             text-decoration: none;
           }
           .link-style:hover {
-            color: red;
+            color: blue;
           }
           .logo-style {
             text-decoration: none;
@@ -78,13 +78,13 @@ export default function MobileLinkContainer(props) {
           @media (max-width: 375px) {
             .link-container {
               top: 200px;
-              right: 130px;
+              right: 140px;
             }
           }
           @media (max-width: 320px) {
             .link-container {
               top: 150px;
-              right: 100px;
+              right: 110px;
             }
           }
         `}</style>

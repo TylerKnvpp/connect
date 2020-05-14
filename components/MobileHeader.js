@@ -20,7 +20,7 @@ export default function MobileHeader(props) {
           onClick={() => setMenuOpened(!menuOpened)}
           onMouseOver={() => setMenuHover(!menuHover)}
           fontSize="3em"
-          color={menuHover ? "red" : "black"}
+          color={menuHover ? "blue" : "black"}
         />
       )}
       <style jsx>{`
