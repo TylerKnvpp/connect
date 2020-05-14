@@ -40,10 +40,10 @@ export default function MobileLinkContainer(props) {
             margin-left: 1em;
           }
           .logo-style:hover {
-            color: red;
+            color: blue;
           }
           .close {
-            color: red;
+            color: blue;
           }
           .link-container {
             display: flex;
@@ -72,7 +72,7 @@ export default function MobileLinkContainer(props) {
           @media (max-width: 414px) {
             .link-container {
               top: 200px;
-              right: 150px;
+              right: 160px;
             }
           }
           @media (max-width: 375px) {
