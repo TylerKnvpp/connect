@@ -27,6 +27,7 @@ export default function MobileLinkContainer(props) {
           .link-style {
             color: black;
             font-size: 18px;
+            font-weight: 700;
             margin-top: 20px;
             margin-bottom: 1em;
             text-decoration: none;
@@ -53,10 +54,25 @@ export default function MobileLinkContainer(props) {
             height: 800px;
             position: relative;
             text-align: center;
-            -webkit-transition: height 2s;
-            transition: height 2s;
             width: 100%;
+            animation: slideleft;
           }
+
+          @keyframes slideleft {
+            from {
+              margin-top: 0;
+              margin-left: 0;
+              top: 0;
+              right: 0;
+            }
+            to {
+              margin-top: 400px;
+              margin-left: 1000px;
+              right: 140px;
+              top: 200px;
+            }
+          }
+
           @media (max-width: 700px) {
             .link-container {
               top: 200px;
@@ -70,21 +86,60 @@ export default function MobileLinkContainer(props) {
             }
           }
           @media (max-width: 414px) {
+            @keyframes slide {
+              from {
+                top: 200px;
+                right: -500px;
+              }
+              to {
+                right: 155px;
+                top: 200px;
+              }
+            }
+
             .link-container {
+              right: 155px;
               top: 200px;
-              right: 160px;
+              animation: slide;
+              animation-duration: 0.4s;
             }
           }
           @media (max-width: 375px) {
+            @keyframes slide {
+              from {
+                top: 200px;
+                right: -500px;
+              }
+              to {
+                right: 140px;
+                top: 200px;
+              }
+            }
+
             .link-container {
-              top: 200px;
               right: 140px;
+              top: 200px;
+              animation: slide;
+              animation-duration: 0.4s;
             }
           }
           @media (max-width: 320px) {
+            @keyframes slide {
+              from {
+                top: 110px;
+                right: -500px;
+              }
+              to {
+                right: 115px;
+                top: 110px;
+              }
+            }
+
             .link-container {
-              top: 150px;
-              right: 110px;
+              right: 115px;
+              top: 110px;
+              animation: slide;
+              animation-duration: 0.4s;
             }
           }
         `}</style>

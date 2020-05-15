@@ -41,8 +41,10 @@ export default function Header() {
           position: fixed;
           top: 0;
           left: 0;
+          transition: height 2s linear 1s;
           width: 100%;
         }
+
         .link-style {
           color: black;
           margin-left: 20px;
