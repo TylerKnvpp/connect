@@ -66,6 +66,12 @@ export default function Header() {
           margin-top: 1.6em;
           margin-right: 2em;
         }
+
+        @media only screen and (max-width: 320px) {
+          .header-style {
+            padding: 0;
+          }
+        }
       `}</style>
     </div>
   );

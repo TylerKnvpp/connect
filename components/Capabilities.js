@@ -92,35 +92,38 @@ const Capabilities = () => {
         }
 
         .cap-box-blue:hover {
+            padding: 2em;
           border: 6px solid blue;
-          box-shadow: inset 0px 5px 12px #6262e8;
+          box-shadow: inset 2px 8px 16px #6262e8;
            
         }
 
 
         .cap-box-purple:hover {
+            padding: 2em;
           border: 6px solid purple;
-          box-shadow: inset 0px 5px 12px #cb85cb;
+          box-shadow: inset 2px 8px 16px #cb85cb;
         }
 
         .cap-box-green:hover {
+            padding: 2em;
           border: 6px solid green;
-          box-shadow: inset 0px 5px 12px #91de91;
+          box-shadow: inset 2px 8px 16px #91de91;
         }
 
         .cap-box-blue:active {
           border: 6px solid blue;
-          box-shadow: inset 0px 3px 9px #6262e8;
+          box-shadow: inset 2px 8px 16px #6262e8;
         }
 
         .cap-box-purple:active {
           border: 6px solid purple;
-          box-shadow: inset 0px 3px 9px #cb85cb;
+          box-shadow: inset 2px 8px 16px #cb85cb;
         }
 
         .cap-box-green:active {
           border: 6px solid green;
-          box-shadow: inset 0px 3px 9px #91de91;
+          box-shadow: inset 2px 8px 16px #91de91;
         }
 
         .title-container {

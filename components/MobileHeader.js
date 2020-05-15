@@ -27,6 +27,12 @@ export default function MobileHeader(props) {
         .mobile-menu-container {
           padding: 1em;
         }
+
+        // @media only screen and (max-width: 320px) {
+        //   .mobile-menu-container {
+        //     padding: 0.5em;
+        //   }
+        // }
       `}</style>
     </div>
   );

@@ -38,7 +38,7 @@ const Hero = (props) => {
         </Link>
       </div>
       <iframe
-        src="https://player.vimeo.com/video/418591011?embedparameter=value;title=0;sidedock=0;controls=0;autoplay=1;loop=5;"
+        src="https://player.vimeo.com/video/418591011?embedparameter=value;title=0;sidedock=0;controls=1;autoplay=1;loop=5;"
         width={dimensions.width * 0.8}
         height={dimensions.width * 0.6}
         frameborder="0"
@@ -108,6 +108,20 @@ const Hero = (props) => {
 
           .title {
             font-size: 48px;
+          }
+
+          .link {
+            font-size: 18px;
+          }
+
+          .text-container-copy {
+            font-size: 18px;
+          }
+        }
+
+        @media only screen and (max-width: 375px) {
+          .title {
+            font-size: 36px;
           }
 
           .link {
