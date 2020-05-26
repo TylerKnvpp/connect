@@ -6,6 +6,19 @@ const Capabilities = () => {
       <h1>Capabilities</h1>
 
       <div className="cap-container">
+        <div className="cap-box-green">
+          <div className="title-container ">
+            <BsDisplay size="1.5em" color="green" />
+            <h3 className="title">Design</h3>
+          </div>
+
+          <p>
+            The zeitgeist of software development is ever changing. We stay up
+            to date with the most popular frameworks, libraries and tools. We
+            love React, GraphQL, MongoDB, Express, JAMstack and Swift.
+          </p>
+        </div>
+
         <div className="cap-box-blue">
           <div className="title-container ">
             <BsCodeSlash size="1.5em" color="blue" />
@@ -22,21 +35,8 @@ const Capabilities = () => {
         <div className="cap-box-purple">
           <div className="title-container ">
             <BsCameraVideo size="1.5em" color="purple" />
-            <h3 className="title">Video</h3>
-          </div>
-          <p>
-            The zeitgeist of software development is ever changing. We stay up
-            to date with the most popular frameworks, libraries and tools. We
-            love React, GraphQL, MongoDB, Express, JAMstack and Swift.
-          </p>
-        </div>
-
-        <div className="cap-box-green">
-          <div className="title-container ">
-            <BsDisplay size="1.5em" color="green" />
             <h3 className="title">Content</h3>
           </div>
-
           <p>
             The zeitgeist of software development is ever changing. We stay up
             to date with the most popular frameworks, libraries and tools. We

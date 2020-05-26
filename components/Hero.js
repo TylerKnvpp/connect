@@ -28,9 +28,9 @@ const Hero = (props) => {
         <p className="text-container-copy">
           We won't waste your time with the cliche's. Connect is a full-stack
           agency specializing in software development and content creation.
-          Whether it is building software with the latest and greatest framework
-          or filming and editing videos, we will deliver a product that
-          resonates with your organization's core values and clientelle.
+          Whether it is building software with the latest and greatest
+          frameworks or filming and editing videos, we will deliver a product
+          that resonates with your organization's core values and clientelle.
         </p>
 
         <Link href="/portfolio">
